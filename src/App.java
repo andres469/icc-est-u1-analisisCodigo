@@ -1,6 +1,9 @@
 public class App {
     public static void main(String[] args) {
 
+
+        BenchMarking benchMarking=new BenchMarking();
+
         MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
         int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
         int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
